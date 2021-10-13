@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Open Streetview</Name><AddInID>{d34e0d51-c460-40ee-b417-3dfd9a27e0d5}</AddInID><Description>Opens Google Streetview at point clicked</Description><Version>0.1</Version><Image>Images\pin.png</Image><Author>Paolo Succi</Author><Company>City of Surrey</Company><Date>02/03/2020</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="openStreetView_addin.py" namespace="openStreetView_addin"><ArcMap>
+    <Commands>
+        <Tool caption="Open StreetView" category="Open Streetview" class="OpenStreetView" id="openStreetView_addin.tool" image="Images\pin.png" message="" tip="Opens Google StreetView at point clicked"><Help heading="" /></Tool>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="SpecialistToolbar" category="Open Streetview" id="openStreetView_addin.toolbar" showInitially="true"><Items><Tool refID="openStreetView_addin.tool" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
